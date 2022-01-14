@@ -1,5 +1,7 @@
-PIL
+pillow
 numpy
 matplotlib
 tensorflow
 requests
+lxml
+PyQt5

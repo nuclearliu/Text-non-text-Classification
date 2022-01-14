@@ -2,6 +2,12 @@
 TextDis_benchmark/
 .idea/
 output_images/
+spider/
+result/
+ResNet34model/
+Classifier_Old.py
+pyqtPlayground.py
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

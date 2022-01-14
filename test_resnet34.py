@@ -58,13 +58,13 @@ else:
 x_test = x_test / 255.0
 print(x_test.shape)
 
-model = ResNet18([2, 2, 2, 2])
+model = ResNet18([3, 4, 6, 3])
 
 # model.compile(optimizer='adam',
 #               loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=False),
 #               metrics=['sparse_categorical_accuracy'])
 
-checkpoint_save_path = "./TextDis_benchmark/ResNet18/ResNet18.ckpt"
+checkpoint_save_path = "./ResNet34model/ResNet34.ckpt"
 model.load_weights(checkpoint_save_path)
 
 # cp_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_save_path,
